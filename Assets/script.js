@@ -8,34 +8,29 @@ var numbers = ["1","2","3","4","5","6","7","8","9","0"];
 function generatePassword(){
   var passwordChoice = [];
   var pickedPassword = "";
+
   var characterLength = parseInt(prompt("How many characters does your password need to contain?"));
-  var toUpperCase = confirm("Does your password need to contain upper case letters?");
-  var toLowerCase = confirm("Does your password need to contain lower case letters?");
-  var toSpecialCharacter = confirm("Does your password need to contain special characters? (Ex: !@#$)");
-  var toNumbers = confirm("Does your password need to contain numbers?");
-
-
-  if(isNaN(characterLength) || characterLength < 8 || characterLength > 128){
+  if(characterLength < 8 || characterLength > 128){
     alert("Password has to be a number between 8 - 128 characters long. Please try again!");
     return;
   }
 
-  
+  var toUpperCase = confirm("Does your password need to contain upper case letters?");
   if(toUpperCase){
     passwordChoice = passwordChoice.concat(upperCase);
   }
 
-  
+  var toLowerCase = confirm("Does your password need to contain lower case letters?");
   if(toLowerCase){
     passwordChoice = passwordChoice.concat(lowerCase);
   }
 
-  
+  var toSpecialCharacter = confirm("Does your password need to contain special characters? (Ex: !@#$)");
   if(toSpecialCharacter){
     passwordChoice = passwordChoice.concat(specialCharactersArray);
   }
 
-  
+  var toNumbers = confirm("Does your password need to contain numbers?");
   if(toNumbers){
     passwordChoice = passwordChoice.concat(numbers);
   } 
