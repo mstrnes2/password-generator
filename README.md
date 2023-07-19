@@ -11,31 +11,30 @@ Screenshot of application:
 ![alt text](assets/Screenshot (6).png)
 
 
-Application link: 
+Application link: https://mstrnes2.github.io/password-generator/
 
 ## Usage
 
-This website can be used to see my work as a coder using HTML/CSS. You can contact me on the bottom of the page and also click on the GitHub and project links to see my projects first hand. 
+This website can be used to generate a password after the user is given prompts on the password criteria.
 
 
-```md
-![alt text](assets/images/Screenshot%20(2).png)
-```
-```md
-![alt text](assets/images/Screenshot%20(3).png)
-```
-```md
-![alt text](assets/images/Screenshot%20(4).png)
-```
+
+![alt text](assets/Screenshot (7).png)
+
+![alt text](assets/Screenshot (8).png)
+
+![alt text](assets/Screenshot (9).png)
+
+![alt text](assets/Screenshot (10).png)
+
+![alt text](assets/Screenshot (11).png)
+
+![alt text](assets/Screenshot (12).png)
+
+
 
 ## Credits
 
-https://www.w3docs.com
+https://dev.to/code_mystery/random-password-generator-using-javascript-6a
 
-https://stackoverflow.com
-
-https://youtube.com
-
-https://freecodecamp.com
-
-https://github.com
+https://www.youtube.com/watch?v=x4HUaiazDes&t=385s
